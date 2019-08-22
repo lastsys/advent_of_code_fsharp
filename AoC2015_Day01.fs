@@ -24,11 +24,11 @@ let readLines (filePath : string) =
 
 let part1 input =
     walk input
-    |> printfn "AOC2015 - Part 1: %d"
+    |> printfn "AOC2015 - Day01 - Part 1: %d"
 
 let part2 input =
     findFloor input -1
-    |> printfn "AOC2015 - Part 2: %d"
+    |> printfn "AOC2015 - Day01 - Part 2: %d"
 
 let run = 
     let input = readLines "input/aoc2015_day01.txt" |> Seq.head
