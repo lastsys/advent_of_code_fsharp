@@ -10,6 +10,7 @@
         <Compile Include="AoC2015_Day01.fs" />
         <Compile Include="AoC2015_Day02.fs" />
         <Compile Include="AoC2015_Day03.fs" />
+        <Compile Include="AoC2015_Day04.fs" />
         <Compile Include="Program.fs" />
         <Content Include="input\aoc2015_day01.txt" />
         <Content Include="input\aoc2015_day02.txt" />
