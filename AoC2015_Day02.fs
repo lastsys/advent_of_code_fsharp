@@ -1,8 +1,5 @@
 ﻿module AoC2015.Day02
 
-open NUnit.Framework
-open FsUnit
-
 let wrappingPaperNeeded l w h =
     let areas = [| l*w; w*h; h*l |]
     let minimumArea = Seq.min areas
@@ -49,6 +46,9 @@ let run =
         |> Seq.map parseLine
     part1 input
     part2 input
+
+open NUnit.Framework
+open FsUnit
 
 [<Test>]
 let ``Part 1 - Example 1`` () =

@@ -1,8 +1,5 @@
 ﻿module AoC2015.Day01
 
-open NUnit.Framework
-open FsUnit
-
 let rules floor x =
     match x with
     | '(' -> floor + 1
@@ -34,6 +31,9 @@ let run =
     let input = readLines "input/aoc2015_day01.txt" |> Seq.head
     part1 input
     part2 input
+    
+open NUnit.Framework
+open FsUnit
 
 [<Test>]
 let ``Part 1 example 1`` () =

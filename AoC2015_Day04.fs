@@ -1,7 +1,5 @@
 ﻿module AoC2015.Day04
 
-open NUnit.Framework
-open FsUnit
 open System.Security.Cryptography
 
 let mine (leadingZeroes : int) (secretKey : string) =
@@ -37,6 +35,9 @@ let run =
     let key = "bgvyzdsv" 
     part1 key
     part2 key
+
+open NUnit.Framework
+open FsUnit
 
 [<Test>]
 let ``Part 1 - Example 1`` () =

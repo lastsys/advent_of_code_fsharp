@@ -1,8 +1,5 @@
 ﻿module AoC2015.Day03
 
-open NUnit.Framework
-open FsUnit
-
 type Position = {X : int; Y : int}
 type PositionSet = Set<Position>
 type State = {Position : Position; Set : PositionSet}
@@ -84,6 +81,9 @@ let run =
     let input = readLines "input/aoc2015_day03.txt" |> Seq.head
     part1 input
     part2 input
+
+open NUnit.Framework
+open FsUnit
 
 [<Test>]
 let ``Part 1 - Example 1`` () =
